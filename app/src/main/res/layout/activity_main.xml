@@ -18,42 +18,42 @@
             android:layout_height="80dp"
             android:layout_margin="20dp"
             android:background="@drawable/shape"
-            android:src="@drawable/kek"
+            android:src="@drawable/mainbtnoff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
         <ImageButton
-            android:id="@+id/button1"
+            android:id="@+id/buttonTop"
             android:scaleType="fitXY"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginBottom="10dp"
             android:layout_marginRight="17dp"
             android:background="@drawable/shape"
-            android:src="@drawable/lol"
+            android:src="@drawable/lilbtn"
             app:layout_constraintBottom_toTopOf="@+id/buttonMenu"
             app:layout_constraintEnd_toEndOf="@+id/buttonMenu" />
 
 
         <ImageButton
-            android:id="@+id/button2"
+            android:id="@+id/buttonMid"
             android:scaleType="fitXY"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/lol"
+            android:src="@drawable/lilbtn"
             android:background="@drawable/shape"
             app:layout_constraintBottom_toTopOf="@+id/buttonMenu"
             app:layout_constraintEnd_toStartOf="@+id/buttonMenu" />
 
         <ImageButton
-            android:id="@+id/button3"
+            android:id="@+id/buttonBot"
             android:scaleType="fitXY"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginBottom="17dp"
             android:layout_marginRight="10dp"
             android:background="@drawable/shape"
-            android:src="@drawable/lol"
+            android:src="@drawable/lilbtn"
             app:layout_constraintBottom_toBottomOf="@+id/buttonMenu"
             app:layout_constraintEnd_toStartOf="@+id/buttonMenu" />
 
