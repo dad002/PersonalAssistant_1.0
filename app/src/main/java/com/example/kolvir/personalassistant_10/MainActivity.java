@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 if (event.getAction() == MotionEvent.ACTION_UP) {
                    menuButton.Tap();
                 }
+
                 return false;
             }
         };

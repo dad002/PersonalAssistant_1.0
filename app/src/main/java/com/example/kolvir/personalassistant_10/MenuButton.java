@@ -12,7 +12,6 @@ public class MenuButton {
     ImageButton menuButton, btnTop, btnMid, btnBot;
     boolean openMenuButton;
     Animation buttonAnimationTop,buttonAnimationMid,buttonAnimationBot;
-    ImageView pic;
 
     public MenuButton(Context context,ImageButton main,ImageButton top,ImageButton mid,ImageButton bot){
 
